@@ -2,3 +2,14 @@ mi., 15 de feb. de 2023 12:35:23:
  tests:  0|6
 total_score: 0/70
 7964391
+Tue 28 Mar 2023 11:05:47 PM UTC: 
+ arraylist.c | 1 +
+ 1 file changed, 1 insertion(+)
+In file included from test.c:5:
+arraylist.c: In function ‘createList’:
+arraylist.c:14:14: error: unused variable ‘List’ [-Werror=unused-variable]
+   14 |   ArrayList* List = (ArrayList*) malloc(sizeof(ArrayList));
+      |              ^~~~
+cc1: all warnings being treated as errors
+Compilation failed
+4961595
