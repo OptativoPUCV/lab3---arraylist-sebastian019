@@ -76,3 +76,9 @@ Tue 28 Mar 2023 11:16:03 PM UTC:
  tests:  1|5
 total_score: 10/70
 80deb2f
+Tue 28 Mar 2023 11:16:20 PM UTC: 
+ arraylist.c | 1 +
+ 1 file changed, 1 insertion(+)
+ tests:  2|5
+total_score: 15/70
+d9d6427
