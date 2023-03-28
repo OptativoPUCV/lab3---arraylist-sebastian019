@@ -24,3 +24,14 @@ arraylist.c:14:14: error: unused variable ‘L’ [-Werror=unused-variable]
 cc1: all warnings being treated as errors
 Compilation failed
 a590bbd
+Tue 28 Mar 2023 11:06:20 PM UTC: 
+ arraylist.c | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+In file included from test.c:5:
+arraylist.c: In function ‘createList’:
+arraylist.c:14:14: error: unused variable ‘List’ [-Werror=unused-variable]
+   14 |   ArrayList* List = (ArrayList*) malloc(sizeof(ArrayList));
+      |              ^~~~
+cc1: all warnings being treated as errors
+Compilation failed
+c0ede51
