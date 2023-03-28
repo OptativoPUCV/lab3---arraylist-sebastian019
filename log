@@ -53,3 +53,14 @@ Tue 28 Mar 2023 11:08:52 PM UTC:
  tests:  1|5
 total_score: 10/70
 d279225
+Tue 28 Mar 2023 11:15:08 PM UTC: 
+ arraylist.c | 3 +++
+ 1 file changed, 3 insertions(+)
+In file included from test.c:5:
+arraylist.c: In function ‘append’:
+arraylist.c:24:6: error: ‘List’ undeclared (first use in this function)
+   24 |   if(List -> size == List -> capacity){
+      |      ^~~~
+arraylist.c:24:6: note: each undeclared identifier is reported only once for each function it appears in
+Compilation failed
+eabd50c
