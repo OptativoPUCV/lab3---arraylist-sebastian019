@@ -124,3 +124,16 @@ Thu 30 Mar 2023 08:35:16 PM UTC:
  tests:  3|4
 total_score: 20/70
 d495dd1
+Thu 30 Mar 2023 08:35:31 PM UTC: 
+ arraylist.c | 5 +++--
+ 1 file changed, 3 insertions(+), 2 deletions(-)
+In file included from test.c:5:
+arraylist.c: In function ‘push’:
+arraylist.c:39:23: error: expected ‘;’ before ‘}’ token
+   39 |     l -> capacity *= 2
+      |                       ^
+      |                       ;
+   40 |   }
+      |   ~                    
+Compilation failed
+7c1fbad
