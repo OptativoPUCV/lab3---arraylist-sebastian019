@@ -57,6 +57,7 @@ void* pop(ArrayList * l, int i){
     }
   }
   
+  l-> size--;
   return l -> data[i];
 }
 
@@ -69,8 +70,7 @@ void* get(ArrayList * l, int i){
     
     return l -> data[l -> size + i];
   }
-
-  l-> size--;
+  
   return l -> data[i];
 }
 
