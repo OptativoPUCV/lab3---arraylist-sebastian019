@@ -54,9 +54,14 @@ void* get(ArrayList * l, int i){
   if(i <= l -> size){
     return NULL;
   }
-
+  if( i < 0){
+    if( l -> capacity < 0){
+      return NULL;
+    }
+    return l -> data[l -> size + i];
+  }
   
-  return NULL;
+  return l -> data[i];
 }
 
 int get_size(ArrayList * l){
